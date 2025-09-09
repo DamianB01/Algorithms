@@ -1,4 +1,4 @@
-def selection_sort(arr: list[int]) -> list[int]:
+def selection_sort(arr: list[int]) -> None:
     """
     Sort a list using the Selection Sort algorithm.
     The function sorts the input list in ascending order in place.

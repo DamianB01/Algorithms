@@ -1,4 +1,4 @@
-def bubble_sort(arr: list[int]) -> list[int]:
+def bubble_sort(arr: list[int]) -> None:
     """
     Sort a list using the Bubble Sort algorithm.
     The function sorts the input list in ascending order in place.

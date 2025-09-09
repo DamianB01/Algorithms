@@ -1,4 +1,4 @@
-def insertion_sort(arr: list[int]) -> list[int]:
+def insertion_sort(arr: list[int]) -> None:
     """
     Sort a list using the Insertion Sort algorithm.
     The function sorts the input list in ascending order in place.
