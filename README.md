@@ -17,6 +17,19 @@ The repository contains a **Binary Search Tree (BST)** implementation and variou
 
 ---
 
+## 🕸️ Graph Algorithms
+
+The repository features graph representations and algorithms for searching and pathfinding weighted graphs.
+
+* **Representations**: Adjacency List (Dictionaries)
+* **Search Algorithms**:
+    * **BFS (Breadth-First Search)**: Standard version with `visited` set to find the shortest path in graphs.
+    * **DFS (Depth-First Search)**: Recursive version for exploring graph components.
+* **Shortest Path**:
+    * **Dijkstra's Algorithm**: Efficient pathfinding for weighted graphs using a Priority Queue (`heapq`).
+
+---
+
 ## ⚙️ How It Works
 
 Each sorting algorithm:
@@ -53,6 +66,24 @@ In-order Output (Sorted): 1 4 5 6 8 10 11 12 14
 
 ---
 
+## ⚙️ Dijkstra's Example
+
+```
+Graph:
+A --(5)--> B --(1)--> D
+A --(3)--> C --(7)--> D
+
+Execution:
+1. Start at A (dist: 0)
+2. Explore C (3) and B (5)
+3. From B, find D (5+1 = 6)
+4. From C, find D (3+7 = 10) -> Rejected (6 is better)
+
+Result: {'A': 0, 'B': 5, 'C': 3, 'D': 6}
+```
+
+---
+
 ## 📊 Time Complexity
 
 | Algorithm      | Best Case  | Average Case | Worst Case |
@@ -78,6 +109,19 @@ In-order Output (Sorted): 1 4 5 6 8 10 11 12 14
 
 ---
 
+## 📊 Graph Complexity
+
+
+| Algorithm       | Complexity (Adjacency List) | Use Case |
+| --------------- | --------------------------- | -------- |
+| BFS             | O(V + E)                    | Shortest path (unweighted) |
+| DFS             | O(V + E)                    | Connectivity, Cycles |
+| Dijkstra        | O(E log V)                  | Shortest path (weighted) |
+
+*V = vertices, E = edges*
+
+---
+
 ## 🧩 Project Structure
 
 ```
@@ -92,5 +136,9 @@ Trees/
 │── BST.py
 │── traversal.py
 │── search.py
+Graphs/
+│── graphs.py
+│── dijkstra.py
+│── search_graphs.py
 README.md
 ```
