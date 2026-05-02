@@ -15,8 +15,6 @@ The repository contains a **Binary Search Tree (BST)** implementation and variou
 * **BST Operations**: Insertion, Search (DFS Recursive & Iterative, BFS), Height Calculation.
 * **Traversals**: In-order, Pre-order, Post-order.
 
----
-
 ## 🕸️ Graph Algorithms
 
 The repository features graph representations and algorithms for searching and pathfinding weighted graphs.
