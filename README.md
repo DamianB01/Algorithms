@@ -7,6 +7,7 @@ The repository includes implementations of:
 * 🔹 Insertion Sort
 * 🔹 Merge Sort
 * 🔹 Quick Sort
+* 🔹 Counting Sort
 
 ---
 
@@ -36,6 +37,7 @@ Output: 1 2 3 5 9
 | Insertion Sort | O(n)       | O(n²)        | O(n²)      |
 | Merge Sort     | O(n log n) | O(n log n)   | O(n log n) |
 | Quick Sort     | O(n log n) | O(n log n)   | O(n²)      |
+| Counting Sort  | O(n + k)   | O(n + k)     | O(n + k)   |
 
 ---
 
@@ -43,11 +45,11 @@ Output: 1 2 3 5 9
 
 ```
 Sorting_algorithms/
-│── bubble_sort.cpp
-│── selection_sort.cpp
-│── insertion_sort.cpp
-│── merge_sort.cpp
-│── quick_sort.cpp
-│── main.cpp
+│── bubble_sort.py
+│── selection_sort.py
+│── insertion_sort.py
+│── merge_sort.py
+│── quick_sort.py
+│── counting_sort.py
 │── README.md
 ```
